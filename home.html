@@ -1,11 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio - Mi Sitio</title>
+    <style>
+        body { background-color: #e0f7fa; font-family: Arial, sans-serif; }
+        header, footer { background: #00796b; color: white; padding: 10px; }
+        nav a { margin: 0 10px; color: white; text-decoration: none; }
+        main { padding: 20px; }
+        aside { background: #b2dfdb; padding: 10px; }
+        section { margin-bottom: 20px; }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Mi Sitio</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Mi Perfil</a>
+            <a href="#">Contacto</a>
+            <a href="index.html">Cerrar Sesión</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido</h2>
+        <section>
+            <h3>Mis Estudios</h3>
+            <p>Actualmente estudio Desarrollo Web, Diseño UX y Programación Full Stack.</p>
+            <img src="https://via.placeholder.com/300" alt="Estudios">
+        </section>
+        <section>
+            <h3>Mis Conocimientos</h3>
+            <p>HTML: 20%</p>
+            <progress value="20" max="100"></progress><br>
+            <p>JavaScript: 15%</p>
+            <progress value="15" max="100"></progress><br>
+            <p>C#: 50%</p>
+            <progress value="50" max="100"></progress><br>
+            <p>Bases de Datos: 30%</p>
+            <progress value="30" max="100"></progress>
+        </section>
+        <section>
+            <h3>Multimedia</h3>
+            <audio controls>
+                <source src="sample.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+            <br>
+            <video width="320" height="240" controls>
+                <source src="sample.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+        </section>
+        <marquee behavior="scroll" direction="left">¡Bienvenido a mi sitio web nostálgico!</marquee>
+    </main>
+    <aside>
+        <h3>Noticias</h3>
+        <p>Próximos cursos y certificaciones.</p>
+    </aside>
+    <footer>
+        © 2025 Mi Sitio Web
+    </footer>
 </body>
 </html>
